@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  gap: 0; /* Squash the items together with no gap */
+}
+
+.holder > * {
+  margin: 5px; /* Optional: Small margin to add space between the elements */
+}
